@@ -8,7 +8,7 @@
 # Esecuzione:
 
 Per eseguire i vari nodi è stato implementato un launch file "launch/homework1.launch", eseguibile da terminale tramite il comando:
-"roslaunch <nome_packege> homework1.launch".
+"roslaunch <nome_package> homework1.launch".
 
 # Progettazione:
 
@@ -16,11 +16,11 @@ Sono stati implementati tre nodi talker, listener, handler
 
 # talker.cpp
 
-Nodo che publica un messaggio al secondo sul topic "chatterTalker" composto da nome, età e corso di studi, strutturato nel file    "msg/messaggio.msg". 
+Nodo che pubblica un messaggio al secondo sul topic "chatterTalker" composto da nome, età e corso di studi, strutturato nel file    "msg/messaggio.msg". 
 
 # handler.cpp
 
-Nodo che publica sul topic "chatterHandler" un messaggio composto da una carattere che corrisponde alla parte del messaggio da visualizzare, secondo un menù stampato a video:
+Nodo che pubblica sul topic "chatterHandler" un messaggio composto da una carattere che corrisponde alla parte del messaggio da visualizzare, secondo un menù stampato a video:
 
 Digita uno dei caratteri per visualizzare le eventuali infomazioni 
 - a - Stampa tutto il messaggio 
