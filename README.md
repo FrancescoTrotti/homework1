@@ -7,7 +7,7 @@
 - Data: 12/04/2018
 # Esecuzione:
 
-Per eseguire i vari nodi è stato implementato un launch file "launch/homework1.launch", eseguibile da terminale tramite il comando:
+Per eseguire i vari nodi è necessario compilare il package tramite il comando: "catkin_make --pkg nome_package" e per eseguirli è stato implementato un launch file "launch/homework1.launch", eseguibile tramite il comando:
 "roslaunch <nome_package> homework1.launch".
 
 # Progettazione:
